@@ -78,7 +78,7 @@ export default function SystemStatusWindow() {
   };
 
   const [quests, setQuests] = useState<Quest[]>([
-    { id: "1", title: "Refactor StoreOS Go-Auth", xpReward: 500, ramCost: 256, completed: false, createdAt: Date.now() - (25 * 60 * 60 * 1000), isSlop: false },
+    { id: "1", title: "Refactor Tessera Go-Auth", xpReward: 500, ramCost: 256, completed: false, createdAt: Date.now() - (25 * 60 * 60 * 1000), isSlop: false },
     { id: "2", title: "Lexicon Protocol Audit", xpReward: 250, ramCost: 128, completed: false, createdAt: Date.now() - (13 * 60 * 60 * 1000), isSlop: false },
     { id: "3", title: "Genesis Engine Template Hardening", xpReward: 150, ramCost: 64, completed: false, createdAt: Date.now() - (5 * 60 * 60 * 1000), isSlop: false },
     { id: "4", title: "stuff -r 16", xpReward: 8, ramCost: 16, completed: false, createdAt: Date.now(), isSlop: true, suggestion: "Define specific output for 'stuff'." },
